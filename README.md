@@ -12,8 +12,8 @@ Selfhoster und Hobby-Entwickler · Deutschland
 ## Projektübersicht
 
 - **haustein.cc** – zweisprachige Hugo-Website (Cloudflare Pages) mit interaktiver Leaflet/OpenStreetMap-Reise-Karte, generiert aus Immich-Fotodaten (GPS-EXIF). Sicherheits-Fokus: SSL Labs A+ (TLS 1.2/1.3 + PQC), MDN Observatory A+, security.txt, strikte CSP.
-- **Immich Places Sync** – wöchentliche automatische Synchronisation besuchter Orte aus meiner Immich-Instanz (pixelunion.eu) per Reverse-Geocoding (Nominatim/OSM) als Datenbasis für die Reise-Karte.
-- **Immich Standort-Tags** – Python-Werkzeug zur Verwaltung von Standort-Tags in Immich (automatisches Markieren/Taggen, Unit-Tests, Coverage ~88 %).
+- **Immich Places Sync** – wöchentliche automatische Synchronisation besuchter Orte aus meiner Immich-Instanz (pixelunion.eu) per Reverse-Geocoding (Nominatim/OSM) als Datenbasis für die Reise-Karte; Abhängigkeiten hash-gesperrt (Supply-Chain-Schutz), Lint via ruff in CI.
+- **Immich Standort-Tags** – Python-Werkzeug zur Verwaltung von Standort-Tags in Immich (automatisches Markieren/Taggen, 88 Unit-Tests, 88 % Coverage, CI-Matrix auf aktuellem Python 3.14/3.15).
 - **Home Assistant Backup** – versionskontrolliertes Backup der kompletten HA-Konfiguration (Automations, Blueprints, Dashboards, Skripte).
 - **Hardware-Info-Backup** – automatisiertes Backup von Proxmox-VE-Hardware- und Systeminformationen als Git-Historie mit Drift-Erkennung.
 
